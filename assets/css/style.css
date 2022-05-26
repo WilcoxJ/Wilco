@@ -1027,4 +1027,12 @@ section .container {
 
 
 
-
+#proj1 {
+  cursor: pointer;
+}
+#proj2 {
+  cursor: pointer;
+}
+#proj3 {
+  cursor: pointer;
+}

@@ -346,32 +346,38 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <a href="https://wilcoxj.github.io/landingPage/">
+        
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" id="proj1" onclick="myhref('https://wilcoxj.github.io/solarSystem/');">
           <div class="icon-box">
-            <div class="icon"><i class="bx bxl-github"></i></div>
-            <h4>Interactive Landing Page</h4>
-            <p>A simple interactive landing page created using Three.js</p>
-          </div>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <a href="https://wilcoxj.github.io/solarSystem/">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-github"></i></div>
+            <div class="icon"><i class="bx bx-planet bx-tada"></i></div>
             <h4>Solar System</h4>
-            <p>Connor is really into planets lately so we've been working on our solar sytem using Three.js</p>
+            <p>3D planets created using Three.js. Connor is really into planets lately :D</p>
           </div>
-          </a>
+        </div>
+        
+
+        
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" id="proj2" onclick="myhref('https://wilcoxj.github.io/landingPage/');">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-desktop bx-burst"></i></div>
+            <h4>3D Landing Page</h4>
+            <p>A simple interactive landing page created using Three.js. (Move the mouse to orient starfield, scrollwheel to zoom, click and hold to start trails)</p>
+          </div>
         </div>
 
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" id="proj3" onclick="myhref('https://github.com/WilcoxJ/TSQL');">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-data"></i></div>
+            <h4>Transact-SQL</h4>
+            <p>Microsoft Transact-SQL examples of column level encryption setup, utilizing cursors in stored procedures, recursive common table expressions, etc.</p>
+          </div>
+        </div>
 
       </div>
 
     </div>
-  </section>
-
+  </section><!-- End Services Section -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -381,7 +387,10 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <script type="text/javascript">
+    function myhref(web){
+      window.location.href = web;}
+</script>
 
   <script src="assets/js/main.js"></script>
 
